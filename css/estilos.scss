@@ -6,6 +6,7 @@ $color-gris: #c1c1c1;
 $tanger-link: #e67e22;
 $pad-lg: 60px 0px;
 $pad-s: 20px 0px;
+$hoverwwd: #2a7257;
 
 @mixin bgGreen{
 	background-color: $prin-green;
@@ -90,20 +91,46 @@ $pad-s: 20px 0px;
 	}
 }
 
-#wwd, #team {
+#wwd {
 	@include bgGreen;
 	@include titles;
 	@include hrs;
 	@include btn;
+	.s4 {
+		p {
+			color: $color-gris;
+		}
+		&:hover {
+			background-color: $hoverwwd;
+			h5 {
+				color: $tanger-link;
+			}
+		}
+	}
 }
-
-#wwd {
-	p {
+#team {
+	@extend #wwd;
+	span {
+		color: $color2btn;
+	}
+	li {
+		display: inline-block;
+	}
+	.s3 {
+		p {
+			color: $color-gris;
+		}
+		hr {
+		border: 1px dashed #9e968f,
+		}
+	}
+	.fa {
+		margin-right:10px;
 		color: $color-gris;
 	}
 }
 
-#price, #clientsay, #contact {
+#price {
 	@include bgBlue;
 	@include titles;
 	@include hrs;
@@ -111,12 +138,16 @@ $pad-s: 20px 0px;
 }
 
 #clientsay {
+	@extend #price;
 	.quot {
 		color: $color-gris;
 	}
 	span {
 		color: $tanger-link;
 	}
+}
+#contact {
+	@extend #price;
 }
 #footer {
 	@include bgGreen-s;

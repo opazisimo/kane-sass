@@ -51,8 +51,23 @@
   #wwd button, #team button {
     background-color: #443e44;
     color: #fff; }
+  #wwd .s4 p, #team .s4 p {
+    color: #c1c1c1; }
+  #wwd .s4:hover, #team .s4:hover {
+    background-color: #2a7257; }
+    #wwd .s4:hover h5, #team .s4:hover h5 {
+      color: #e67e22; }
 
-#wwd p {
+#team span {
+  color: #443e44; }
+#team li {
+  display: inline-block; }
+#team .s3 p {
+  color: #c1c1c1; }
+#team .s3 hr {
+  border: 1px dashed #9e968f; }
+#team .fa {
+  margin-right: 10px;
   color: #c1c1c1; }
 
 #price, #clientsay, #contact {
