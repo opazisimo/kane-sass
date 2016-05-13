@@ -72,6 +72,22 @@ $pad-s: 20px 0px;
 	.s12 {
 		text-align: center;
 	}
+	.percent {
+		.progress {
+		  background-color: $color-gris !important;
+		}
+
+		.progress .determinate {
+		  background-color: $tanger-link !important;
+		}
+	}
+	.agency {
+		background: url(../img/agency-img3.jpg);
+		height:500px;
+		background-position:center;
+		padding:30px;
+		background-size:cover !important;
+	}
 }
 
 #wwd, #team {
@@ -79,6 +95,12 @@ $pad-s: 20px 0px;
 	@include titles;
 	@include hrs;
 	@include btn;
+}
+
+#wwd {
+	p {
+		color: $color-gris;
+	}
 }
 
 #price, #clientsay, #contact {
