@@ -4,3 +4,64 @@ $color: #fff;
 $color2btn: #443e44;
 $color-gris: #c1c1c1;
 $tanger-link: #e67e22;
+$pad-lg: 40px 0px;
+$pad-s: 20px 0px;
+
+@mixin bgGreen{
+	background-color: $prin-green;
+	padding: $pad-lg;
+	color: $color;
+}
+
+@mixin bgGreen-s{
+	background-color: $prin-green;
+	padding: $pad-s;
+	color: $color;
+}
+
+@mixin bgBlue {
+	background-color: $prin-blue;
+	padding: $pad-lg;
+	color: $color;
+}
+
+@mixin titles {
+	text-align: center;
+	color: $color;	
+}
+
+/* */
+
+#header {
+	@include bgGreen-s;
+	.navbar {
+		background-color: $prin-green;
+	}
+}
+
+#beauty {
+	@include titles;
+	p {
+		font-size: 25px;
+	}
+	.container {
+		padding: $pad-lg;
+	}
+}
+
+#pick {
+	color: $color2btn;
+	text-align: center;
+	padding: $pad-lg;
+}
+
+#about {
+	@include bgBlue;
+	.s12 {
+		text-align: center;
+	}
+	hr {
+		width: 200px;
+		border: 0.5px solid #fff;
+	}
+}
