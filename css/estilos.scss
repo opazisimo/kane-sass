@@ -4,7 +4,7 @@ $color: #fff;
 $color2btn: #443e44;
 $color-gris: #c1c1c1;
 $tanger-link: #e67e22;
-$pad-lg: 40px 0px;
+$pad-lg: 60px 0px;
 $pad-s: 20px 0px;
 
 @mixin bgGreen{
@@ -29,7 +29,18 @@ $pad-s: 20px 0px;
 	text-align: center;
 	color: $color;	
 }
-
+@mixin hrs {
+		hr {
+		width: 200px;
+		border: 0.5px solid #fff;
+	}
+}
+@mixin btn {
+	button {
+		background-color: $color2btn;
+		color: $color;
+	}
+}
 /* */
 
 #header {
@@ -57,11 +68,42 @@ $pad-s: 20px 0px;
 
 #about {
 	@include bgBlue;
+	@include hrs;
 	.s12 {
 		text-align: center;
 	}
-	hr {
-		width: 200px;
-		border: 0.5px solid #fff;
+}
+
+#wwd, #team {
+	@include bgGreen;
+	@include titles;
+	@include hrs;
+	@include btn;
+}
+
+#price, #clientsay, #contact {
+	@include bgBlue;
+	@include titles;
+	@include hrs;
+	@include btn;
+}
+
+#clientsay {
+	.quot {
+		color: $color-gris;
+	}
+	span {
+		color: $tanger-link;
+	}
+}
+#footer {
+	@include bgGreen-s;
+
+	p {
+		color: $color2btn;
+	}
+	a {
+		display: inline-block;
+		color: $color;
 	}
 }
