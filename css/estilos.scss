@@ -24,31 +24,31 @@
 	padding: $pad-lg;
 	.cuadrado {
 		@include squad;
-		&.a1 { @include bgcolor ($a1)}
-		&.a2 { @include bgcolor ($a2)}
-		&.a3 { @include bgcolor ($a3)}
-		&.a4 { @include bgcolor ($a4)}
-		&.a5 { @include bgcolor ($a5)}
-		&.b1 { @include bgcolor ($b1)}
-		&.b2 { @include bgcolor ($b2)}
-		&.b3 { @include bgcolor ($b3)}
-		&.b4 { @include bgcolor ($b4)}
-		&.b5 { @include bgcolor ($b5)}
-		&.c1 { @include bgcolor ($c1)}
-		&.c2 { @include bgcolor ($c2)}
-		&.c3 { @include bgcolor ($c3)}
-		&.c4 { @include bgcolor ($c4)}
-		&.c5 { @include bgcolor ($c5)}
-		&.d1 { @include bgcolor ($d1)}
-		&.d2 { @include bgcolor ($d2)}
-		&.d3 { @include bgcolor ($d3)}
-		&.d4 { @include bgcolor ($d4)}
-		&.d5 { @include bgcolor ($d5)}
-		&.e1 { @include bgcolor ($e1)}
-		&.e2 { @include bgcolor ($e2)}
-		&.e3 { @include bgcolor ($e3)}
-		&.e4 { @include bgcolor ($e4)}
-		&.e5 { @include bgcolor ($e5)}
+		&.a1 { @include bgcolor ($a1)};
+		&.a2 { @include bgcolor ($a2)};
+		&.a3 { @include bgcolor ($a3)};
+		&.a4 { @include bgcolor ($a4)};
+		&.a5 { @include bgcolor ($a5)};
+		&.b1 { @include bgcolor ($b1)};
+		&.b2 { @include bgcolor ($b2)};
+		&.b3 { @include bgcolor ($b3)};
+		&.b4 { @include bgcolor ($b4)};
+		&.b5 { @include bgcolor ($b5)};
+		&.c1 { @include bgcolor ($c1)};
+		&.c2 { @include bgcolor ($c2)};
+		&.c3 { @include bgcolor ($c3)};
+		&.c4 { @include bgcolor ($c4)};
+		&.c5 { @include bgcolor ($c5)};
+		&.d1 { @include bgcolor ($d1)};
+		&.d2 { @include bgcolor ($d2)};
+		&.d3 { @include bgcolor ($d3)};
+		&.d4 { @include bgcolor ($d4)};
+		&.d5 { @include bgcolor ($d5)};
+		&.e1 { @include bgcolor ($e1)};
+		&.e2 { @include bgcolor ($e2)};
+		&.e3 { @include bgcolor ($e3)};
+		&.e4 { @include bgcolor ($e4)};
+		&.e5 { @include bgcolor ($e5)};
 	}
 }
 
