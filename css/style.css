@@ -129,9 +129,26 @@
   background-color: #27ad60;
   padding: 20px 0px;
   color: #fff; }
+  #footer button {
+    background-color: #443e44;
+    color: #fff; }
   #footer p {
+    font-size: 12px; }
+  #footer .ftitle {
+    text-align: center; }
+    #footer .ftitle hr {
+      width: 100px; }
+  #footer .news {
+    text-align: center; }
+    #footer .news .material-icons {
+      color: #e67e22;
+      padding: 10px;
+      background-color: #443e44; }
+    #footer .news input {
+      color: #fff; }
+  #footer .bkfo p {
     color: #443e44; }
-  #footer a {
+  #footer .bkfo a {
     display: inline-block;
     color: #fff; }
 

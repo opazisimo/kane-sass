@@ -205,12 +205,35 @@ $cafe: #8f5f38;
 }
 #footer {
 	@include bgGreen-s;
-
+	@include btn;
 	p {
-		color: $color2btn;
+		font-size: 12px;
 	}
-	a {
+	.ftitle {
+		text-align:center;
+		hr {
+			width:100px;
+		}
+	}
+	.news {
+		text-align:center;
+		.material-icons {
+			color: $tanger-link;
+			padding:10px;
+			background-color: $color2btn;
+		}
+		input {
+			color: $color;
+		}
+	}
+	.bkfo {
+		p {
+		color: $color2btn;
+		}
+
+		a {
 		display: inline-block;
 		color: $color;
+		}
 	}
 }
