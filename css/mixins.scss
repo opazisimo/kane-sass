@@ -1,0 +1,42 @@
+@mixin bgGreen{
+	background-color: $prin-green;
+	padding: $pad-lg;
+	color: $color;
+}
+
+@mixin bgGreen-s{
+	background-color: $prin-green;
+	padding: $pad-s;
+	color: $color;
+}
+
+@mixin bgBlue {
+	background-color: $prin-blue;
+	padding: $pad-lg;
+	color: $color;
+}
+
+@mixin titles {
+	text-align: center;
+	color: $color;	
+}
+@mixin hrs {
+		hr {
+		width: 200px;
+		border: 0.5px solid #fff;
+	}
+}
+@mixin btn {
+	button {
+		background-color: $color2btn;
+		color: $color;
+	}
+}
+@mixin squad {
+	width: 150px;
+	height:100px;
+	display:inline-block;
+}
+@mixin bgcolor ($bgcolor){
+	background-color: $bgcolor;
+}
