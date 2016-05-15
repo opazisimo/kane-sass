@@ -5,6 +5,8 @@
   color: #fff; }
   #header .navbar {
     background-color: #27ad60; }
+  #header nav {
+    box-shadow: none !important; }
 
 #beauty {
   text-align: center;
@@ -117,6 +119,9 @@
   color: #c1c1c1; }
 #clientsay span {
   color: #e67e22; }
+
+#contact .input-field {
+  text-align: left; }
 
 #rrss {
   font-size: 120px;

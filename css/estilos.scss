@@ -53,6 +53,9 @@ $cafe: #8f5f38;
 	.navbar {
 		background-color: $prin-green;
 	}
+	nav {
+		box-shadow: none !important;
+	}
 }
 
 #beauty {
@@ -194,6 +197,9 @@ $cafe: #8f5f38;
 }
 #contact {
 	@extend #price;
+	.input-field {
+		text-align: left;
+	}
 }
 #rrss {
 	font-size:120px;
