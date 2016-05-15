@@ -82,11 +82,48 @@
   #price button, #clientsay button, #contact button {
     background-color: #443e44;
     color: #fff; }
+  #price .rowtb, #clientsay .rowtb, #contact .rowtb {
+    margin-top: 100px; }
+  #price .tabla, #clientsay .tabla, #contact .tabla {
+    border: 1px solid #27ad60; }
+    #price .tabla .tr, #clientsay .tabla .tr, #contact .tabla .tr {
+      display: block;
+      padding: 10px 0px; }
+    #price .tabla .tres, #clientsay .tabla .tres, #contact .tabla .tres {
+      background-color: #8f5f38; }
+    #price .tabla .hd, #clientsay .tabla .hd, #contact .tabla .hd {
+      padding: 25px 0px !important;
+      color: #c1c1c1; }
+    #price .tabla .uno, #clientsay .tabla .uno, #contact .tabla .uno {
+      background-color: #2c3e50; }
+    #price .tabla .dos, #clientsay .tabla .dos, #contact .tabla .dos {
+      background-color: #fff;
+      color: #2c3e50; }
+    #price .tabla .es, #clientsay .tabla .es, #contact .tabla .es {
+      background-color: #27ad60; }
+      #price .tabla .es .big, #clientsay .tabla .es .big, #contact .tabla .es .big {
+        font-size: 40px; }
+      #price .tabla .es .small, #clientsay .tabla .es .small, #contact .tabla .es .small {
+        font-size: 10px; }
+    #price .tabla .fo, #clientsay .tabla .fo, #contact .tabla .fo {
+      background-color: #2c3e50;
+      padding: 60px 0px; }
+    #price .tabla:hover, #clientsay .tabla:hover, #contact .tabla:hover {
+      border: 2px solid #e67e22;
+      position: relative;
+      bottom: 50px; }
 
 #clientsay .quot {
   color: #c1c1c1; }
 #clientsay span {
   color: #e67e22; }
+
+#rrss {
+  font-size: 120px;
+  color: #fff;
+  text-align: center; }
+  #rrss .cont-icos {
+    padding: 150px 0px; }
 
 #footer {
   background-color: #27ad60;

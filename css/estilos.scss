@@ -6,7 +6,11 @@ $color-gris: #c1c1c1;
 $tanger-link: #e67e22;
 $pad-lg: 60px 0px;
 $pad-s: 20px 0px;
+$pad-xs: 10px 0px;
+$pad-hd: 25px 0px;
 $hoverwwd: #2a7257;
+$marg-t: 100px;
+$cafe: #8f5f38;
 
 @mixin bgGreen{
 	background-color: $prin-green;
@@ -135,6 +139,48 @@ $hoverwwd: #2a7257;
 	@include titles;
 	@include hrs;
 	@include btn;
+	.rowtb {
+		margin-top: $marg-t;
+	}
+	.tabla {
+		border: 1px solid $prin-green;
+		.tr {
+			display: block;
+			padding: $pad-xs;
+		}
+		.tres {
+			background-color: $cafe;
+		}
+		.hd {
+			padding: $pad-hd !important;
+			color:$color-gris;
+		}
+		.uno {
+			background-color: $prin-blue;
+		}
+		.dos {
+			background-color: $color;
+			color: $prin-blue;
+		}
+		.es {
+			background-color: $prin-green;
+			.big {
+				font-size: 40px;
+			}
+			.small {
+				font-size:10px;
+			}
+		}
+		.fo {
+			background-color: $prin-blue;
+			padding: $pad-lg;
+		}
+		&:hover {
+			border: 2px solid $tanger-link;
+			position:relative;
+			bottom:50px;
+		}
+	}
 }
 
 #clientsay {
@@ -148,6 +194,14 @@ $hoverwwd: #2a7257;
 }
 #contact {
 	@extend #price;
+}
+#rrss {
+	font-size:120px;
+	color: $color;
+	text-align: center;
+	.cont-icos {
+		padding:150px 0px;
+	}
 }
 #footer {
 	@include bgGreen-s;
