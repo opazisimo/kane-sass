@@ -20,6 +20,60 @@
   color: #443e44;
   text-align: center;
   padding: 60px 0px; }
+  #pick .cuadrado {
+    width: 150px;
+    height: 100px;
+    display: inline-block; }
+    #pick .cuadrado.a1 {
+      background-color: #69d2e7; }
+    #pick .cuadrado.a2 {
+      background-color: #a7dbdb; }
+    #pick .cuadrado.a3 {
+      background-color: #e0e4cc; }
+    #pick .cuadrado.a4 {
+      background-color: #f38630; }
+    #pick .cuadrado.a5 {
+      background-color: #fa6900; }
+    #pick .cuadrado.b1 {
+      background-color: #e94c6f; }
+    #pick .cuadrado.b2 {
+      background-color: #542733; }
+    #pick .cuadrado.b3 {
+      background-color: #5a6a62; }
+    #pick .cuadrado.b4 {
+      background-color: #c6d5cd; }
+    #pick .cuadrado.b5 {
+      background-color: #fdf200; }
+    #pick .cuadrado.c1 {
+      background-color: #db3340; }
+    #pick .cuadrado.c2 {
+      background-color: #e8b71a; }
+    #pick .cuadrado.c3 {
+      background-color: #f7eac8; }
+    #pick .cuadrado.c4 {
+      background-color: #1fda9a; }
+    #pick .cuadrado.c5 {
+      background-color: #28abe3; }
+    #pick .cuadrado.d1 {
+      background-color: #588c73; }
+    #pick .cuadrado.d2 {
+      background-color: #f2e394; }
+    #pick .cuadrado.d3 {
+      background-color: #f2ae72; }
+    #pick .cuadrado.d4 {
+      background-color: #d96459; }
+    #pick .cuadrado.d5 {
+      background-color: #8c4646; }
+    #pick .cuadrado.e1 {
+      background-color: #d0c91f; }
+    #pick .cuadrado.e2 {
+      background-color: #85c4b9; }
+    #pick .cuadrado.e3 {
+      background-color: #008bba; }
+    #pick .cuadrado.e4 {
+      background-color: #df514c; }
+    #pick .cuadrado.e5 {
+      background-color: #dc403b; }
 
 #about {
   background-color: #2c3e50;

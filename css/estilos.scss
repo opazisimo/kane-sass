@@ -11,6 +11,32 @@ $pad-hd: 25px 0px;
 $hoverwwd: #2a7257;
 $marg-t: 100px;
 $cafe: #8f5f38;
+$a1: #69d2e7;
+$a2: #a7dbdb;
+$a3: #e0e4cc;
+$a4: #f38630;
+$a5: #fa6900;
+$b1: #e94c6f;
+$b2: #542733;
+$b3: #5a6a62;
+$b4: #c6d5cd;
+$b5: #fdf200;
+$c1: #db3340;
+$c2: #e8b71a;
+$c3: #f7eac8;
+$c4: #1fda9a;
+$c5: #28abe3;
+$d1: #588c73;
+$d2: #f2e394;
+$d3: #f2ae72;
+$d4: #d96459;
+$d5: #8c4646;
+$e1: #d0c91f;
+$e2: #85c4b9;
+$e3: #008bba;
+$e4: #df514c;
+$e5: #dc403b;
+
 
 @mixin bgGreen{
 	background-color: $prin-green;
@@ -46,6 +72,14 @@ $cafe: #8f5f38;
 		color: $color;
 	}
 }
+@mixin squad {
+	width: 150px;
+	height:100px;
+	display:inline-block;
+}
+@mixin bgcolor ($bgcolor){
+	background-color: $bgcolor;
+}
 /* */
 
 #header {
@@ -72,6 +106,34 @@ $cafe: #8f5f38;
 	color: $color2btn;
 	text-align: center;
 	padding: $pad-lg;
+	.cuadrado {
+		@include squad;
+		&.a1 { @include bgcolor ($a1)}
+		&.a2 { @include bgcolor ($a2)}
+		&.a3 { @include bgcolor ($a3)}
+		&.a4 { @include bgcolor ($a4)}
+		&.a5 { @include bgcolor ($a5)}
+		&.b1 { @include bgcolor ($b1)}
+		&.b2 { @include bgcolor ($b2)}
+		&.b3 { @include bgcolor ($b3)}
+		&.b4 { @include bgcolor ($b4)}
+		&.b5 { @include bgcolor ($b5)}
+		&.c1 { @include bgcolor ($c1)}
+		&.c2 { @include bgcolor ($c2)}
+		&.c3 { @include bgcolor ($c3)}
+		&.c4 { @include bgcolor ($c4)}
+		&.c5 { @include bgcolor ($c5)}
+		&.d1 { @include bgcolor ($d1)}
+		&.d2 { @include bgcolor ($d2)}
+		&.d3 { @include bgcolor ($d3)}
+		&.d4 { @include bgcolor ($d4)}
+		&.d5 { @include bgcolor ($d5)}
+		&.e1 { @include bgcolor ($e1)}
+		&.e2 { @include bgcolor ($e2)}
+		&.e3 { @include bgcolor ($e3)}
+		&.e4 { @include bgcolor ($e4)}
+		&.e5 { @include bgcolor ($e5)}
+	}
 }
 
 #about {
